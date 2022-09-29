@@ -45,4 +45,8 @@ section{
     padding: 1rem;
     border:1px solid red;
     margin: 5vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: .5rem;
 }
