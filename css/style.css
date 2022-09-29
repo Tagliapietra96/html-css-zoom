@@ -116,13 +116,45 @@ li{
     display: inline-block;
     height: 100%;
     line-height: 5rem;
+    padding: 0 .5rem;
 }
 
 li button{
     background-color: transparent;
     border-radius: 0;
+
 }
 
 button.icon>div:first-child{
     font-size: 1.5rem;
+}
+
+/* hover fx */
+header button:hover{
+    background-color: #222222;
+}
+
+li:hover:not(.right-bar *){
+    background-color: hsla(0, 0%, 50%, 0.2);
+    border-radius: 5px;
+}
+
+.select:hover{
+    background-color: hsla(0, 0%, 50%, 0.5);
+    border-radius: 5px;
+}
+
+.right-bar:hover{
+    background-color: transparent;
+}
+
+.right-bar:hover button{
+    color: black;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.right-bar button:hover{
+    color: white;
+    transform: scale(1.2);
 }
