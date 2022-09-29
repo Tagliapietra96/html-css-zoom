@@ -42,11 +42,31 @@ header{
 }
 
 section{
+    min-width: 1200px;
     padding: 1rem;
-    border:1px solid red;
     margin: 5vh 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: .5rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    flex-shrink: 0;
+    flex-basis: 13%;
+    position: relative;
+}
+
+.id-container{
+    padding: .2rem;
+    background-color: rgba(0,0, 0, .5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
