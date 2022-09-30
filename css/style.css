@@ -26,7 +26,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2rem;
 }
 
 button{
@@ -50,6 +49,7 @@ main{
     flex-grow: 1;
     display: flex;
     align-items: center;
+    overflow: auto;
 }
 
 footer{
